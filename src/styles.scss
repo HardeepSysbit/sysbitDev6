@@ -1,1 +1,102 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.matCard {
+
+    width: 90px;
+    height: 135px;
+    align-items: center;
+    background-color:white;
+    border: 2px solid red;
+ 
+     box-shadow: 0 8px 8px 8px rgba(0,0,0,.2), 0 8px 8px 0 rgba(0,0,0,.14), 0 8px 8px 0 rgba(0,0,0,.12) !important;
+     transform: translate3d(0,0,0);
+     transition: background .4s cubic-bezier(.25,.8,.25,1),box-shadow 280ms cubic-bezier(.4,0,.2,1);
+  
+  }
+  
+  .matCardSub {
+
+    width: 90px;
+    height: 80px;
+    align-items: center;
+    background-color:white;
+    border: 2px solid red;
+ 
+     box-shadow: 0 8px 8px 8px rgba(0,0,0,.2), 0 8px 8px 0 rgba(0,0,0,.14), 0 8px 8px 0 rgba(0,0,0,.12) !important;
+     transform: translate3d(0,0,0);
+     transition: background .4s cubic-bezier(.25,.8,.25,1),box-shadow 280ms cubic-bezier(.4,0,.2,1);
+  
+  }
+  
+  // .boxWindow {
+  //   display: grid;
+  //   // width: calc(90vw-10px);
+  //   grid-template-rows: 50px 50px 50px 50px 50px 50px 800px;
+  //   grid-template-columns: 50px 50px calc(90vw - 100px);
+  //    }
+ 
+  // .boxContent {
+  //   grid-area: 1/2/6/5;
+     
+  //   border-style: solid;
+  //   border-width: 2px;
+   
+  // }
+
+  // .boxTitle {
+  //   grid-area: 1/1/3/3;
+  //    margin-left: 2px;
+  //  }
+
+   .boxWindow {
+    display: grid;
+    // width: calc(90vw-10px);
+    grid-template-rows: 50px 50px 50px calc(1fr-100px) ;
+    grid-template-columns: 50px 50px calc(90vw - 100px);
+  
+    // grid-template-areas: "header header header"
+    //                     "sidebar content content" 
+    //                     "footer footer footer";
+  }
+ 
+  .boxContent {
+    font-size: 22px;
+    grid-area: 2/2/5/5;
+     
+    // border-style: solid;
+    // border-width: 2px;
+   
+  }
+
+  .boxTitle {
+    grid-area: 1/1/3/3;
+     margin-left: 2px;
+   }
+
+   .cardx { 
+    // display: flex;
+    align-items:center;
+    text-align: center;
+    text-justify: center;
+   
+  }
+  
+  .matCardPage {
+  
+    width: 250px;
+    
+    align-items: center;
+    background-color:white;
+    border: 2px solid red;
+    // margin: 5px ;
+    //  border-top:10px;
+   // margin:1em;
+     box-shadow: 0 8px 8px 8px rgba(0,0,0,.2), 0 8px 8px 0 rgba(0,0,0,.14), 0 8px 8px 0 rgba(0,0,0,.12) !important;
+     transform: translate3d(0,0,0);
+     transition: background .4s cubic-bezier(.25,.8,.25,1),box-shadow 280ms cubic-bezier(.4,0,.2,1);
+  
+  }
+
