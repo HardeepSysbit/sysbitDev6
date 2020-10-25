@@ -20,13 +20,13 @@ import { MatMenuModule } from '@angular/material/menu';
 import { LayoutModule } from '@angular/cdk/layout';
 import { PaComponent } from './pa/pa.component';
 import { BiComponent } from './bi/bi.component';
-import { CloudComponent } from './cloud/cloud.component';
+
 import { EsbComponent } from './esb/esb.component';
 import { MobileComponent } from './mobile/mobile.component';
-import { WebComponent } from './web/web.component';
+
 import { DesktopComponent } from './desktop/desktop.component';
 import { FullstackComponent } from './fullstack/fullstack.component';
-import { AptlistComponent } from './aptlist/aptlist.component';
+
 import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
@@ -36,13 +36,13 @@ import { ContactComponent } from './contact/contact.component';
     AboutComponent,
     PaComponent,
     BiComponent,
-    CloudComponent,
+
     EsbComponent,
     MobileComponent,
-    WebComponent,
+  
     DesktopComponent,
     FullstackComponent,
-    AptlistComponent,
+
     ContactComponent
 
   ],

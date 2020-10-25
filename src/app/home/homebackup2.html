@@ -1,16 +1,15 @@
-<div fxLayout="column" >
 
-<div fxHide fxShow.gt-sm style="height:100px;">
 
-</div> 
 
-  <div fxLayout="row" fxLayout="row wrap"  fxLayoutAlign="space-around center"   >   
+
+  <div fxLayout="row" fxLayout="row wrap"  fxLayoutAlign="space-around center" style="margin-top:60px;" >   
     
     <div fxFlex.gt-sm="15%">
                       
     </div>   
     
-     
+   
+  
    <mat-card class="matCard" (click)="clickCard('pa')">
     <mat-card-header>
       <mat-card-title>
@@ -18,7 +17,7 @@
        
           <img
       width="50"
-      alt="Process Automation"
+      alt="Business Intelligence"
       src="../assets/imgs/pa.png"
        />
       
@@ -57,7 +56,9 @@
       <mat-icon style="margin:0px;color:white;">keyboard_arrow_down</mat-icon>
     </mat-card-footer>
    </mat-card>
-  
+   
+   
+       
    <mat-card class="matCard" fxHide fxShow.gt-sm (click)="clickCard('esb')">
      <mat-card-header>
        <mat-card-title>
@@ -165,150 +166,21 @@
    
  </div>
 
- <div fxLayout="row" fxLayout="row wrap" fxShow fxHide.gt-sm fxLayoutAlign="space-around center" style="margin-top:10px;" >   
-    
-  <div fxFlex.gt-sm="15%">
-                    
-  </div>  
-  
-  <mat-card class="matCard"  (click)="clickCard('esb')">
-    <mat-card-header>
-      <mat-card-title>
-     
-       
-          <img
-      width="50"
-      alt="Enterprise Service Bus"
-      src="../assets/imgs/esb.png"
-       />
-       
-        
-      </mat-card-title>
-    </mat-card-header>
-    <mat-card-content class="dashboard-card-content">
-       <div>Enterprise Service Bus</div> 
-       
-    </mat-card-content>
-    <mat-card-footer style="background-color: black;">
-     <mat-icon style="margin:0px;color:white;">keyboard_arrow_down</mat-icon>
-   </mat-card-footer>
-  </mat-card>
-
- <mat-card class="matCard" (click)="clickCard('mobile')">
-   <mat-card-header>
-     <mat-card-title>
-    
-    
-         <img
-     width="50"
-     alt="Mobile Applications"
-     src="../assets/imgs/mobile.png"
-      />
-       
-     </mat-card-title>
-   </mat-card-header>
-   <mat-card-content class="dashboard-card-content">
-      <div>Mobile Applications</div> 
-      
-   </mat-card-content>
-   <mat-card-footer style="background-color: black;">
-    <mat-icon style="margin:0px;color:white;">keyboard_arrow_down</mat-icon>
-  </mat-card-footer>
- 
- </mat-card>
-
- 
- <!-- <mat-card class="matCard" fxShow fxHide.gt-sm (click)="clickCard('desktop')">
-   <mat-card-header>
-     <mat-card-title>
-    
-      
-         <img
-     width="50"
-     alt="Desktop Applications"
-     src="../assets/imgs/desktop.png"
-      />
-      
-       
-     </mat-card-title>
-   </mat-card-header>
-   <mat-card-content class="dashboard-card-content">
-      <div>Desktop Applications</div> 
-     
-   </mat-card-content>
-   <mat-card-footer style="background-color: black;">
-    <mat-icon style="margin:0px;color:white;">keyboard_arrow_down</mat-icon>
-  </mat-card-footer>
- </mat-card> -->
-<!--  
- <mat-card class="matCard" fxShow fxHide.gt-sm (click)="clickCard('fullStack')">
-   <mat-card-header>
-     <mat-card-title>
-    
-       
-         <img
-     width="50"
-     alt="Full-Stack Development"
-     src="../assets/imgs/fullstack.png"
-      />
-  
-       
-     </mat-card-title>
-   </mat-card-header>
-   <mat-card-content class="dashboard-card-content">
-      <div>
-          Full-Stack Development</div> 
-      
-   </mat-card-content>
-   <mat-card-footer style="background-color: black;">
-    <mat-icon style="margin:0px;color:white;">keyboard_arrow_down</mat-icon>
-  </mat-card-footer>
- </mat-card>  -->
-
-
-
- <div fxFlex.gt-sm="15%">
-                    
- </div>  
- 
- 
- 
-</div>
-
-
-
- <div fxLayout="row" fxLayout="row wrap"  fxShow fxHide.gt-sm fxLayoutAlign="space-around center" style="margin-top:10px;" >   
+ <div fxLayout="row" fxLayout="row wrap"  fxLayoutAlign="space-around center" style="margin-top:20px;" >   
     
   <div fxFlex.gt-sm="15%">
                     
   </div>   
-
-   <mat-card class="matCard" (click)="clickCard('desktop')">
-   <mat-card-header>
-     <mat-card-title>
-    
-      
-         <img
-     width="50"
-     alt="Desktop Applications"
-     src="../assets/imgs/desktop.png"
-      />
-      
-       
-     </mat-card-title>
-   </mat-card-header>
-   <mat-card-content class="dashboard-card-content">
-      <div>Desktop Applications</div> 
-     
-   </mat-card-content>
-   <mat-card-footer style="background-color: black;">
-    <mat-icon style="margin:0px;color:white;">keyboard_arrow_down</mat-icon>
-  </mat-card-footer>
- </mat-card>
- 
   
+ 
 
-<!-- 
+ 
+ 
+ 
+     
+
+
+
  <mat-card class="matCard" fxShow fxHide.gt-sm (click)="clickCard('mobile')">
    <mat-card-header>
      <mat-card-title>
@@ -330,10 +202,10 @@
     <mat-icon style="margin:0px;color:white;">keyboard_arrow_down</mat-icon>
   </mat-card-footer>
  
- </mat-card> -->
+ </mat-card>
 
  
- <!-- <mat-card class="matCard" fxShow fxHide.gt-sm (click)="clickCard('desktop')">
+ <mat-card class="matCard" fxShow fxHide.gt-sm (click)="clickCard('desktop')">
    <mat-card-header>
      <mat-card-title>
     
@@ -354,9 +226,9 @@
    <mat-card-footer style="background-color: black;">
     <mat-icon style="margin:0px;color:white;">keyboard_arrow_down</mat-icon>
   </mat-card-footer>
- </mat-card> -->
+ </mat-card>
  
- <mat-card class="matCard" (click)="clickCard('fullStack')">
+ <mat-card class="matCard" fxShow fxHide.gt-sm (click)="clickCard('fullStack')">
    <mat-card-header>
      <mat-card-title>
     
@@ -390,16 +262,12 @@
  
 </div>
 
-<div fxHide fxShow.gt-sm style="height:100px;">
-
-</div>
-<div  fxLayout="row"  fxLayoutAlign="space-around center" style="margin-top:5px;background-color: black;" >
+<div  fxLayout="row"  fxLayoutAlign="space-around center" style="margin-top:65px;background-color: black;" >
       
  
   <div fxLayout="column" >
-    <h1 style="margin-top:5px;background-color: black;font-weight: bolder;margin-bottom: 0px;color:white">Custom Software Development</h1>
+    <h1 style="margin-top:35px;background-color: black;font-weight: bolder;margin-bottom: 0px;color:white">Custom Software Development</h1>
     <div style="font-size: 50%;margin-top: 0px;margin-bottom: 40px;color:white">We translate technology into customer gains. </div>
      </div>
  </div>
-
-</div>
+ 
